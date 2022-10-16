@@ -1,12 +1,12 @@
-.already-learned ol {
+.already-learned ol > li {
   background-color: green;
   color: white;
 }
-.to-be-learned ol {
+.to-be-learned ol > li {
   background-color: orange;
   color: white;
 }
-#special1 ~ code {
+.already-learned code {
   background-color: orange;
 }
 .to-be-learned code {
