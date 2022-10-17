@@ -1,7 +1,7 @@
 body li {
   margin-bottom: 16px;
 }
-a[target='_blank'] {
+a[href][target='_blank'] {
   border: 2px solid black;
 }
 a[href^='broken'] {
