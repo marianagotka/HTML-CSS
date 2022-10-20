@@ -16,7 +16,7 @@
       * {
         background-color: antiquewhite;
       }
-      body > div {
+      .first {
         box-sizing: content-box;
         border: 8px solid black;
         margin: 16px;
@@ -25,7 +25,7 @@
         height: 128px;
         background-color: aquamarine;
       }
-      body > div :nth-of-type(2) {
+      .second {
         box-sizing: border-box;
         border: 8px solid black;
         margin: 16px;
@@ -37,7 +37,7 @@
     </style>
   </head>
   <body>
-    <div>"Content Box Sizing"</div>
-    <div>"Border Box Sizing</div>
+    <div class="first">"Content Box Sizing"</div>
+    <div class="second">"Border Box Sizing</div>
   </body>
 </html>
