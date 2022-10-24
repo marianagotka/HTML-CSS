@@ -13,11 +13,13 @@
   margin: 0;
 }
 .nav-item {
-  display: inline-block;
+  /* display: inline-block; */
+  float: left;
   margin-left: 16px;
   height: 40px;
   color: white;
-  line-height: center;
+  /* line-height: center; */
+  list-style: none;
 }
 .content {
   background-color: beige;
