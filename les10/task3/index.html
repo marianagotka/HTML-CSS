@@ -49,14 +49,17 @@
     }
     .aside {
       width: 200px;
-      display: flex;
       flex-grow: 1;
       background-color: gray;
     }
     .aside_bar {
+      display: flex;
+      justify-content: center;
       margin: 16px;
     }
     .news {
+      display: flex;
+      flex-direction: column;
       line-height: 40px;
       margin-left: 16px;
     }
@@ -76,10 +79,10 @@
         </section>
         <aside class="aside">
           <h2 class="aside_bar">News</h2>
-          <ul>
-            <li class="news">News 1</li>
-            <li class="news">News 2</li>
-            <li class="news">News 3</li>
+          <ul class="news">
+            <li>News 1</li>
+            <li>News 2</li>
+            <li>News 3</li>
           </ul>
         </aside>
       </main>
