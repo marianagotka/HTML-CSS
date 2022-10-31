@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    .header {
+      height: 40px;
+      background-color: yellow;
+      display: flex;
+      align-items: center;
+    }
+    .nav-list {
+      display: flex;
+      margin: 0;
+      list-style: none;
+      /* align-items: center; */
+    }
+    .nav-item {
+      margin-left: 16px;
+    }
+
+    .footer {
+      height: 40px;
+      background-color: green;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .page {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .main {
+      display: flex;
+      flex-grow: 1;
+    }
+    .section {
+      flex-grow: 1;
+      background-color: pink;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .aside {
+      display: flex;
+      flex-grow: 1;
+      background-color: gray;
+      width: 200px;
+      justify-content: center;
+    }
+    .aside_bar {
+      margin: 16px;
+    }
+    .news {
+      line-height: 40px;
+      margin-left: 16px;
+    }
+  </style>
+  <body>
+    <div class="page">
+      <header class="header">
+        <ul class="nav-list">
+          <li class="nav-item">About</li>
+          <li class="nav-item">Products</li>
+          <li class="nav-item">Contacts</li>
+        </ul>
+      </header>
+      <main class="main">
+        <section class="section">
+          <h2>I can use FlexBox</h2>
+        </section>
+        <aside class="aside">
+          <h2 class="aside_bar">News</h2>
+          <ul>
+            <li class="news">
+              <h4>News 1</h4>
+            </li>
+            <li class="news"><h4>News 2</h4></li>
+            <li class="news"><h4>News 3</h4></li>
+          </ul>
+        </aside>
+      </main>
+      <footer class="footer">footer</footer>
+    </div>
+  </body>
+</html>
