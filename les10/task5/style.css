@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.article {
+  flex-grow: 1;
+
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+  /* flex-basis: 300px; */
+}
+body {
+  flex-wrap: wrap;
+  /* width: 300px; */
+}
