@@ -7,13 +7,12 @@ h1 {
 }
 .article {
   flex-grow: 1;
-
   margin: 8px;
   padding: 16px;
   background-color: bisque;
   /* flex-basis: 300px; */
+  width: 300px;
 }
 body {
   flex-wrap: wrap;
-  /* width: 300px; */
 }
