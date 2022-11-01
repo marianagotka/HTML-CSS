@@ -6,10 +6,12 @@ h1 {
   justify-content: center;
 }
 .article {
-  margin: 8px;
-  padding: 16px;
   background-color: bisque;
   width: 300px;
+  margin: 8px;
+  padding: 16px;
+  flex-shrink: 1;
+  flex-grow: 1;
 }
 
 .articles-list {
