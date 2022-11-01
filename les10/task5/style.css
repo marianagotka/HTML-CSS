@@ -6,13 +6,13 @@ h1 {
   justify-content: center;
 }
 .article {
-  flex-grow: 1;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  /* flex-basis: 300px; */
   width: 300px;
 }
-body {
+
+.articles-list {
+  display: flex;
   flex-wrap: wrap;
 }
