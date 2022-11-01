@@ -1,13 +1,13 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 h1 {
   display: flex;
   justify-content: center;
 }
 .article {
   background-color: bisque;
-  width: 300px;
+  flex-basis: 300px;
   margin: 8px;
   padding: 16px;
   /* flex-shrink: 1; */
