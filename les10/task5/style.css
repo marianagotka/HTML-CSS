@@ -10,7 +10,7 @@ h1 {
   width: 300px;
   margin: 8px;
   padding: 16px;
-  flex-shrink: 1;
+  /* flex-shrink: 1; */
   flex-grow: 1;
 }
 
