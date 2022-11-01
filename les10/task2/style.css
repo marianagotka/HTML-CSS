@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -6,4 +9,6 @@
 .block {
   height: 100px;
   width: 100px;
+  flex-shrink: 1;
+  flex-grow: 1;
 }
