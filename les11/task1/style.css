@@ -9,8 +9,13 @@ div > div {
 .articles {
   display: flex;
 }
-div:ntn-first-child(1) {
+.visible-text {
   display: none;
-  overflow: hidden;
+}
+.cropped {
+  visibility: hidden;
+}
+.both-scrolls {
+  visibility: visible;
 }
 /* put your code here */
