@@ -21,7 +21,7 @@
   opacity: 1;
 }
 .menu-list {
-  display: inline-block;
+  /* display: inline-block; */
   min-width: 120px;
   z-index: 1;
   color: black;
