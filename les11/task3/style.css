@@ -21,7 +21,7 @@
   opacity: 1;
 }
 .menu-list {
-  /* display: inline-block; */
+  display: inline-block;
   min-width: 120px;
   z-index: 1;
   color: black;
@@ -31,7 +31,7 @@
   margin: 0;
   padding: 0;
   position: absolute;
-  /* display: none; */
+  display: none;
 }
 .menu-item {
   list-style-type: none;
