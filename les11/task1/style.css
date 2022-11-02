@@ -6,16 +6,16 @@ div > div {
 * {
   box-sizing: border-box;
 }
-.articles {
-  display: flex;
-}
+
 .visible-text {
   display: none;
 }
 .cropped {
   visibility: hidden;
+  overflow: hidden;
 }
 .both-scrolls {
   visibility: visible;
+  overflow: hidden;
 }
 /* put your code here */
