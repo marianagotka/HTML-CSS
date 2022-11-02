@@ -3,19 +3,14 @@ div > div {
   height: 100px;
   background: coral;
 }
-* {
-  box-sizing: border-box;
-}
 
-.visible-text {
+div:ntn-child(1) {
   display: none;
 }
-.cropped {
+div > div:ntn-child(2) {
   visibility: hidden;
-  overflow: hidden;
 }
-.both-scrolls {
+div > div:ntn-child(3) {
   visibility: visible;
-  overflow: hidden;
 }
 /* put your code here */
