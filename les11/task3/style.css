@@ -4,7 +4,6 @@
 .dropdown {
   margin: 16px;
   display: inline-block;
-
   background-color: darkgreen;
   opacity: 0.8;
   color: white;
@@ -34,6 +33,6 @@
   display: none;
 }
 .menu-item {
-  padding: 16px;
   list-style-type: none;
+  padding: 16px;
 }

@@ -1,0 +1,16 @@
+div > div {
+  width: 100px;
+  height: 100px;
+  background: coral;
+}
+* {
+  box-sizing: border-box;
+}
+.articles {
+  display: flex;
+}
+div:ntn-first-child(1) {
+  display: none;
+  overflow: hidden;
+}
+/* put your code here */
