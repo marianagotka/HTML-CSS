@@ -15,8 +15,7 @@ span.tooltip {
   bottom: -40px;
   border-radius: 4px;
   display: block;
-  /* display: none; */
 }
-.tooltip:hover {
+.text:hover .tooltip {
   background-color: grey;
 }
