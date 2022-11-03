@@ -1,9 +1,7 @@
 * {
   box-sizing: border-box;
 }
-/* .text {
-  position: relative;
-} */
+
 div.text {
   margin: 16px;
   border-bottom: 1px dotted black;
