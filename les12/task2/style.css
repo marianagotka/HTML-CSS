@@ -1,9 +1,10 @@
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 50vw;
 }
 h1 {
   font-size: 74px;
-  width: 20vw;
+  width: 50vw;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
