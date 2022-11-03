@@ -3,7 +3,9 @@ div > div {
   height: 100px;
   background: coral;
 }
-
+* {
+  box-sizing: border-box;
+}
 div:ntn-child(1) {
   display: none;
 }
