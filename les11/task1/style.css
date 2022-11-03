@@ -6,7 +6,7 @@ div > div {
 * {
   box-sizing: border-box;
 }
-div:ntn-child(1) {
+div > div:ntn-child(1) {
   display: none;
 }
 div > div:ntn-child(2) {
