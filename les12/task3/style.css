@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+.list {
+  list-style-type: none;
+}
+.third {
+  text-decoration: green underline;
+}
+.second {
+  text-decoration: line-through;
+}
+.first {
+  text-decoration: red overline;
+}
