@@ -11,7 +11,7 @@ h1 {
   overflow: hidden;
   text-overflow: ellipsis;
 
-  margin: 0;
+  margin: auto;
 }
 div {
   line-height: 200px;
