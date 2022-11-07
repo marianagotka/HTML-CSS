@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.gallery {
+  display: flex;
+}
+.image {
+  height: 200px;
+  width: 200px;
+  margin: 16px;
+  border: 1px dotted grey;
+}
+.image:nth-child(1) {
+  background-position: center;
+  background-clip: border-box;
+  background-size: contain;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+.image:nth-child(2) {
+  background-position: center;
+  background-clip: border-box;
+  background-size: contain;
+  /* background-color: white; */
+  background-repeat: no-repeat;
+}
+.image:nth-child(3) {
+  background-position-x: center;
+  background-clip: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
