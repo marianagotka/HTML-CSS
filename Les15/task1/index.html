@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .image-container {
+        display: block;
+        text-align: center;
+      }
+      .image {
+        max-width: 100%;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      .gallery {
+        display: flex;
+      }
+      .caption {
+        line-height: 30px;
+        text-align: center;
+      }
+      .card {
+        margin: 16px;
+        box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+      }
+      .opacity {
+        filter: opacity(50%);
+      }
+      .blur {
+        filter: blur(4px);
+      }
+      .invert {
+        filter: invert(100%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img class="image" src="big.jpeg" alt="green tree" />
+    </div>
+    <div class="gallery">
+      <figure class="card">
+        <img class="opacity" src="small.jpg" alt="opacity" />
+        <figcaption class="caption">Opacity</figcaption>
+      </figure>
+
+      <figure class="card">
+        <img class="blur" src="small.jpg" alt="blur" />
+        <figcaption class="caption">Blur</figcaption>
+      </figure>
+
+      <figure class="card">
+        <img class="invert" src="small.jpg" alt="invert" />
+        <figcaption class="caption">Invert</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>
