@@ -8,5 +8,5 @@ html {
   list-style-type: none;
 }
 .properties-list__item {
-  padding: 8px;
+  margin: 8px;
 }
