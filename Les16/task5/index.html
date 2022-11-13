@@ -20,6 +20,7 @@
       }
       div {
         padding: 0px 0px 8px 0px;
+        margin: 0;
       }
     </style>
     <title>Document</title>
@@ -37,12 +38,7 @@
       </div>
       <div><input type="color" name="favouriteColor" value="#ff7f50" /></div>
       <div>
-        <input
-          type="date"
-          name="birthDate"
-          value="2024-10-04 T 13:02"
-          checked
-        />
+        <input type="date" name="birthDate" value="2024-10-04" checked />
       </div>
 
       <div>
@@ -63,13 +59,13 @@
       </div>
 
       <div>
-        <input
+        <textarea
           type="textarea"
           name="story"
-          line-clamp="5"
-          maxlength="30"
+          rows="5"
+          cols="30"
           placeholder="A long time ago..."
-        />
+        ></textarea>
       </div>
 
       <div><input type="password" name="password" value="secret"</div>
