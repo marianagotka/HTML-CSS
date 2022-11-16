@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+td {
+  width: 50px;
+  height: 50px;
+}
+tr {
+  text-align: center;
+}
+table {
+  margin: 50px;
+  border: 1px solid black;
+}
+
+tr:not(:first-child, :last-child):nth-child(even)
+  td:not(:first-child, :last-child):nth-child(odd) {
+  background-color: black;
+}
+
+tr:not(:first-child, :last-child):nth-child(odd)
+  td:not(:first-child, :last-child):nth-child(even) {
+  background-color: black;
+}
