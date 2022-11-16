@@ -22,3 +22,11 @@ tr:not(:first-child, :last-child):nth-child(odd)
   td:not(:first-child, :last-child):nth-child(even) {
   background-color: black;
 }
+
+tr:not(:first-child, :last-child) td:not(:first-child, :last-child) {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+  border-collapse: collapse;
+}
