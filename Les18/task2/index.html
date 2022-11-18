@@ -21,7 +21,7 @@
     />
   </head>
   <style>
-    button {
+    .custom-button {
       width: 200px;
       height: 50px;
       text-align: center;
@@ -35,7 +35,7 @@
       border: none;
       cursor: pointer;
     }
-    button:hover {
+    .custom-button:hover {
       color: darkcyan;
     }
     .bird {
@@ -44,12 +44,12 @@
       fill: white;
       vertical-align: middle;
     }
-    button:hover > .bird {
-      color: green;
+    .custom-button:hover > .bird {
+      fill: green;
     }
   </style>
   <body>
-    <button>
+    <button class="custom-button">
       <svg
         class="bird"
         version="1.1"
@@ -86,6 +86,9 @@
       </svg>
       Catch the bird
     </button>
-    <button>Create acount</button>
+    <button class="custom-button">
+      <i class="fa-solid fa-id-card"></i>
+      Create acount
+    </button>
   </body>
 </html>
