@@ -36,4 +36,13 @@
   border-right: 4px solid lightgray;
   border-radius: 30px;
   margin-bottom: 8px;
+  animation: spinning 2s linear infinite;
+}
+@keyframes spinning {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(380deg);
+  }
 }
