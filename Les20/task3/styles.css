@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.spinner {
+  margin: auto;
+}
+.spinner-text {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: monospace;
+  animation: blinking infinite linear 2s;
+}
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-top: 4px solid black;
+  border-bottom: 4px solid lightgray;
+  border-left: 4px solid lightgray;
+  border-right: 4px solid lightgray;
+  border-radius: 30px;
+  margin-bottom: 8px;
+}
