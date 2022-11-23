@@ -55,8 +55,8 @@ body {
   width: 20%;
 }
 .section__header {
-  font-size: 5%;
   text-align: center;
+  font-size: 5vh;
 }
 .nav-list {
   padding: 0;
