@@ -19,7 +19,8 @@ body {
   color: white;
   text-align: center;
   background-image: linear-gradient(60deg, red, orange);
-  display: flex;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 .footer {
   display: flexbox;
@@ -29,7 +30,9 @@ body {
   padding: 0.5em;
   clear: both;
 }
-.navigation .section .news {
+.navigation,
+.section,
+.news {
   padding: 0.5em;
 }
 .navigation {
