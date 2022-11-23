@@ -7,13 +7,13 @@ html {
   color: #555;
 }
 body {
-  /* width: 600px; */
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
 .main {
   display: flex;
+  flex: 1;
 }
 .header {
   color: white;
@@ -46,7 +46,7 @@ body {
   line-height: 1.75em;
   color: #8b0000;
   background-color: #e5e5e5;
-  font-size: 1.125rem;
+  font-size: 1.125em;
   font-weight: 700;
 }
 .news {
