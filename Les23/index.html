@@ -46,20 +46,21 @@
       flex-grow: 1;
     }
     @media screen and (min-width: 600px) {
+      .base {
+        display: flex;
+      }
+    }
+    @media screen and (min-width: 900px) {
       .main {
         display: flex;
         flex-grow: 2;
       }
     }
-    @media screen and (min-width: 900px) {
-      .base {
-        display: flex;
-      }
-    }
     @media screen and (max-width: 900px) {
       .base {
         display: flex;
-        width: 33.3%;
+        flex-direction: column;
+        flex: 0 1 33.3%;
       }
     }
   </style>
