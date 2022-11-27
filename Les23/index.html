@@ -45,6 +45,9 @@
       display: flex;
       flex-grow: 1;
     }
+    .base {
+      max-width: 100%;
+    }
     @media screen and (min-width: 600px) {
       .main {
         display: flex;
@@ -54,8 +57,8 @@
     @media screen and (min-width: 900px) {
       .base {
         display: flex;
-        flex: 0 1 33.333%;
-        margin: 0;
+        flex: 33.333%;
+        flex-basis: 100%;
       }
     }
   </style>
