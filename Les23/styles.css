@@ -36,14 +36,13 @@ div {
   display: flex;
   flex: 2;
 }
-/* @media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
   .main {
     display: flex;
   }
-} */
+}
 @media screen and (min-width: 900px) {
   .base {
     display: flex;
-    justify-content: space-around;
   }
 }
