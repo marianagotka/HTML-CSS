@@ -32,13 +32,11 @@ div {
 .base {
   width: 100%;
 }
-.main {
-  display: flex;
-  flex: 2;
-}
+
 @media screen and (min-width: 600px) {
   .main {
     display: flex;
+    flex: 2;
   }
 }
 @media screen and (min-width: 900px) {
