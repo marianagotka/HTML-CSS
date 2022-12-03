@@ -39,7 +39,6 @@ div {
 @media screen and (min-width: 600px) {
   .main {
     display: flex;
-    flex: 0 2 50%;
   }
 }
 @media screen and (min-width: 900px) {
