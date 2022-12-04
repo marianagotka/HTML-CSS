@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: flex;
+}
+picture {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 400px) {
+  .big {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .small {
+    display: none;
+  }
+}
