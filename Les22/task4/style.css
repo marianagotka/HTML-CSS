@@ -23,28 +23,32 @@ html {
 
 .navigation {
   padding: 0;
+  width: 20%;
 }
 
 .nav-list-item {
-  width: 20%;
   list-style-type: none;
   padding: 0.5em;
   background-color: #808080;
   color: white;
-  margin-bottom: 0.5em;
+  margin: 0 0 0.5em 0;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  height: 2em;
 }
 .nav-list-link {
   text-decoration: none;
   color: white;
-  font-size: 2em;
 }
 
 .fa-solid fa-bars {
   display: block;
 }
+/* .main {
+  display: block;
+  margin: 0 auto;
+} */
 @media screen and (max-width: 600px) {
   .navigation {
     display: none;
