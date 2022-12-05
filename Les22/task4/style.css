@@ -23,6 +23,7 @@ html {
 
 .navigation {
   padding: 0;
+  margin: 0;
   width: 20%;
 }
 
@@ -42,13 +43,6 @@ html {
   color: white;
 }
 
-.fa-solid fa-bars {
-  display: block;
-}
-/* .main {
-  display: block;
-  margin: 0 auto;
-} */
 @media screen and (max-width: 600px) {
   .navigation {
     display: none;
