@@ -22,7 +22,6 @@ html {
 }
 
 .navigation {
-  padding: 0;
   width: 20%;
 }
 
@@ -36,6 +35,9 @@ html {
   white-space: nowrap;
   text-overflow: ellipsis;
   height: 2em;
+}
+.nav-list {
+  padding: 0;
 }
 .nav-list-link {
   text-decoration: none;
