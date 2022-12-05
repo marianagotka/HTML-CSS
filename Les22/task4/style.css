@@ -11,7 +11,7 @@ html {
   background-color: #eee;
 }
 
-button {
+.button {
   background-color: none;
   cursor: pointer;
   font-size: 2em;
@@ -41,13 +41,17 @@ button {
   color: white;
   font-size: 2em;
 }
+
+.fa-solid fa-bars {
+  display: block;
+}
 @media screen and (max-width: 600px) {
   .navigation {
     display: none;
   }
 }
 @media screen and (min-width: 600px) {
-  .fa-bars {
+  .button {
     display: none;
   }
 }
