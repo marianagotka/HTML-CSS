@@ -81,15 +81,20 @@ a {
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 600px) {
-  .image_big {
-    display: none;
-  }
   .main {
     display: flex;
     flex-direction: column;
   }
-  .navigation,
-  .section,
+  .image image_big {
+    display: none;
+  }
+
+  .navigation {
+    width: 100%;
+  }
+  .section {
+    width: 100%;
+  }
   .news {
     width: 100%;
   }
@@ -104,9 +109,9 @@ a {
   .section {
     width: 80%;
   }
-  .news {
+  /* .news {
     display: inline-block;
-  }
+  } */
 }
 @media screen and (max-width: 1200px) {
   .image_small {
