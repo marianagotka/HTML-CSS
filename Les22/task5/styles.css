@@ -99,6 +99,7 @@ a {
   }
   .main {
     display: flex;
+    flex: 1;
   }
   .navigation {
     width: 20%;
@@ -107,7 +108,7 @@ a {
     width: 80%;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 900px) {
   .image_small {
     display: none;
   }
