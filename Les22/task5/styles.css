@@ -99,7 +99,8 @@ a {
   }
   .main {
     display: flex;
-    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .navigation {
     width: 20%;
