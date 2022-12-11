@@ -23,6 +23,8 @@ header {
 }
 .menu__item-text {
   color: white;
+  height: 3em;
+  text-align: center;
 }
 .menu__item_active span {
   color: yellow;

@@ -22,6 +22,8 @@ header {
   }
   &__item-text {
     color: white;
+    height: 3em;
+    text-align: center;
   }
   &__item_active span {
     color: yellow;
