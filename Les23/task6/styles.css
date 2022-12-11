@@ -36,5 +36,11 @@ body {
     display: flex;
   }
 }
+@media (orientation: portrait) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
