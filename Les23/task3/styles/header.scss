@@ -15,14 +15,14 @@ header {
 
   &__item {
     padding: 8px;
-    // height: 3em;
+    line-height: 3em;
   }
   &__item:hover {
     background-color: #9acd32;
   }
   &__item-text {
     color: white;
-    height: 3em;
+
     text-align: center;
   }
   &__item_active span {

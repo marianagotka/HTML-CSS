@@ -16,13 +16,13 @@ header {
 }
 .menu__item {
   padding: 8px;
+  line-height: 3em;
 }
 .menu__item:hover {
   background-color: #9acd32;
 }
 .menu__item-text {
   color: white;
-  height: 3em;
   text-align: center;
 }
 .menu__item_active span {
