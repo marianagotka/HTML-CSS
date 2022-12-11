@@ -24,8 +24,9 @@ body {
     background-color: #c47;
   }
 }
-@media (orientation: portrait) {
-  body {
-    flex-direction: column;
+
+@media (orientation: landscape) {
+  .container {
+    display: flex;
   }
 }
