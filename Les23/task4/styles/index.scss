@@ -1,0 +1,46 @@
+@import 'layout.scss';
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: $font-family;
+}
+.base {
+  width: 100%;
+  @include for-large {
+    display: flex;
+  }
+}
+div {
+  height: 200px;
+}
+.navigation {
+  background-color: $background-color-first;
+  display: $display;
+  flex: 1;
+}
+.product {
+  background-color: $background-color-second;
+  display: $display;
+  flex: 1;
+}
+
+.news {
+  background-color: $background-color-third;
+  display: $display;
+  flex: 1;
+}
+.block {
+  padding: $padding;
+  border-radius: $border-radius;
+  text-transform: $text-transform;
+  background-color: $background-color-block;
+  margin: $margin;
+  text-align: $text-align;
+}
+@include for-medium-up {
+  .main {
+    display: flex;
+    flex: 2;
+  }
+}

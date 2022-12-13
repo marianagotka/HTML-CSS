@@ -1,0 +1,24 @@
+$background-color-first: #ff7f50;
+$background-color-second: #006400;
+$background-color-third: #0ff;
+$border-radius: 4px;
+$font-family: Verdana;
+$background-color-block: #faebd7;
+$padding: 4px;
+$text-transform: lowercase;
+$margin: auto;
+$text-align: center;
+$display: flex;
+$sm: 600px;
+$md: 900px;
+
+@mixin for-medium-up {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}
+@mixin for-large {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
