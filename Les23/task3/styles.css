@@ -6,7 +6,6 @@ header {
   list-style-type: none;
   text-transform: uppercase;
   margin: 0;
-  padding: 0px 8px;
   display: flex;
   align-items: center;
   margin-left: 3em;
@@ -15,7 +14,7 @@ header {
   height: 3em;
 }
 .menu__item {
-  padding: 8px;
+  padding: 0px 8px;
   line-height: 3em;
 }
 .menu__item:hover {
